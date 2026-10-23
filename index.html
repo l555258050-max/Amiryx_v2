@@ -258,4 +258,4 @@ document.querySelectorAll('.lgb').forEach(b=>b.textContent=a?'EN':'ع');dyn()}
 $('seatmap').innerHTML=Array.from({length:12},(_,i)=>i+1).map(n=>[1,2,3,5,6,8,9,11].includes(n)?`<button class="seat taken" disabled>${n}</button>`:n==12?`<button class="seat na" disabled>✕</button>`:`<button class="seat" onclick="toast(t('Information only. Seats cannot be reserved in this prototype.','للمعلومات فقط. لا يمكن حجز المقاعد في هذا النموذج.'))">${n}</button>`).join('');
 dyn();go('splash');
 </script>
-</body></html>
+</body></html> 
